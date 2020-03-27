@@ -1,0 +1,27 @@
+@import "contants";
+
+body,
+html {
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: $body-color;
+}
+
+.text-container {
+  color: $primary-color;
+}
+
+.text-error {
+  color: $error-color;
+}
+
+.bold-text {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+}
